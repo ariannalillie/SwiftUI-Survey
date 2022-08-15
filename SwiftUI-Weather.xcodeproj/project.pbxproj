@@ -13,6 +13,8 @@
 		5188BA5228AAC6DC00C5B790 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5188BA4028AAC6D900C5B790 /* ContentView.swift */; };
 		5188BA5328AAC6DC00C5B790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5188BA4128AAC6DC00C5B790 /* Assets.xcassets */; };
 		5188BA5428AAC6DC00C5B790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5188BA4128AAC6DC00C5B790 /* Assets.xcassets */; };
+		51CA287828AAF0960005C795 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CA287728AAF0960005C795 /* HomePage.swift */; };
+		51CA287928AAF0960005C795 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CA287728AAF0960005C795 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		5188BA4628AAC6DC00C5B790 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5188BA4C28AAC6DC00C5B790 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5188BA4E28AAC6DC00C5B790 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		51CA287728AAF0960005C795 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				5188BA3F28AAC6D900C5B790 /* SwiftUI_WeatherApp.swift */,
 				5188BA4028AAC6D900C5B790 /* ContentView.swift */,
+				51CA287728AAF0960005C795 /* HomePage.swift */,
 				5188BA4128AAC6DC00C5B790 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5188BA5128AAC6DC00C5B790 /* ContentView.swift in Sources */,
+				51CA287828AAF0960005C795 /* HomePage.swift in Sources */,
 				5188BA4F28AAC6DC00C5B790 /* SwiftUI_WeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5188BA5228AAC6DC00C5B790 /* ContentView.swift in Sources */,
+				51CA287928AAF0960005C795 /* HomePage.swift in Sources */,
 				5188BA5028AAC6DC00C5B790 /* SwiftUI_WeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
